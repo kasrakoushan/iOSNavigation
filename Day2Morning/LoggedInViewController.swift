@@ -9,15 +9,18 @@
 import UIKit
 
 class LoggedInViewController: UIViewController {
-
     
     @IBOutlet var greetingLabel: UILabel!
+    
+    @IBAction func logoutButtonTapped(sender: UIButton) {
+        let appDelegate: AppDelegate = UIApplication.sharedApplication().delegate as! AppDelegate
+        appDelegate.navigateToLoggedOutNavigationController()
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
         let user = UserController.sharedInstance.logged_in_user!
         greetingLabel.text = "Welcome, \(user.email)!"
-        greetingLabel.numberOfLines = 0
         // Do any additional setup after loading the view.
     }
 

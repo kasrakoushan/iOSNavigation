@@ -58,6 +58,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func navigateToLoggedInNavigationController() {
         self.window?.rootViewController = self.loggedInNavigationController
     }
+    
+    func navigateToLoggedOutNavigationController() {
+        self.window?.rootViewController = self.authorizationNavigationController
+    }
 
 
 }

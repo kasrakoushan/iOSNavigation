@@ -42,8 +42,26 @@ class RegistrationViewController: UIViewController {
         let email = emailField.text
         let password = passwordField.text
         let (failureMessage, user) = UserController.sharedInstance.registerUser(email!, newPassword: password!)
-        if user == nil && failureMessage != nil {
+        if user != nil {
+            let alertController = UIAlertController(title: "User registered",
+                                                    message: "Username \(user!.email). Feel free to log in.",
+                                                    preferredStyle: .Alert)
+            let OKAction = UIAlertAction(title: "OK", style: .Default) { (action: UIAlertAction) in
+                print("Register message given")
+            }
+            alertController.addAction(OKAction)
+            self.presentViewController(alertController, animated: true, completion: nil)
+            
+        } else if failureMessage != nil {
             print("User registration failed: \(failureMessage!)")
+            let alertController = UIAlertController(title: "Could not register",
+                                                    message: failureMessage, preferredStyle: .Alert)
+            let OKAction = UIAlertAction(title: "OK", style: .Default) { (action: UIAlertAction!) in
+                print("Error message given")
+            }
+            alertController.addAction(OKAction)
+            self.presentViewController(alertController, animated: true, completion: nil)
+
         }
         
         

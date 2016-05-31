@@ -46,6 +46,13 @@ class LoginViewController: UIViewController {
             appDelegate.navigateToLoggedInNavigationController()
         } else if failureMessage != nil {
             print("User login failed: \(failureMessage!)")
+            let alertController = UIAlertController(title: "Could not log in",
+                                                    message: failureMessage, preferredStyle: .Alert)
+            let OKAction = UIAlertAction(title: "OK", style: .Default) { (action: UIAlertAction!) in
+                print("Error message given")
+            }
+            alertController.addAction(OKAction)
+            self.presentViewController(alertController, animated: true, completion: nil)
         }
         
     }

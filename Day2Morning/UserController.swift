@@ -59,4 +59,8 @@ class UserController {
         
         return ("No user with that email", nil)
     }
+    
+    func logoutUser() {
+        // nothing to do
+    }
 }
