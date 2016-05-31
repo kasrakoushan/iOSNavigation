@@ -1,0 +1,333 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A10992741CFD89360079BB77 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10992731CFD89360079BB77 /* AppDelegate.swift */; };
+		A10992761CFD89360079BB77 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10992751CFD89360079BB77 /* ViewController.swift */; };
+		A109927B1CFD89360079BB77 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A109927A1CFD89360079BB77 /* Assets.xcassets */; };
+		A109927E1CFD89360079BB77 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A109927C1CFD89360079BB77 /* LaunchScreen.storyboard */; };
+		A10992891CFD89ED0079BB77 /* LandingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10992871CFD89ED0079BB77 /* LandingViewController.swift */; };
+		A109928A1CFD89ED0079BB77 /* LandingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A10992881CFD89ED0079BB77 /* LandingViewController.xib */; };
+		A109928D1CFD8D9D0079BB77 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A109928B1CFD8D9D0079BB77 /* LoginViewController.swift */; };
+		A109928E1CFD8D9D0079BB77 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A109928C1CFD8D9D0079BB77 /* LoginViewController.xib */; };
+		A10992911CFD8DAD0079BB77 /* RegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A109928F1CFD8DAD0079BB77 /* RegistrationViewController.swift */; };
+		A10992921CFD8DAD0079BB77 /* RegistrationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A10992901CFD8DAD0079BB77 /* RegistrationViewController.xib */; };
+		A10992941CFD92A10079BB77 /* UserController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10992931CFD92A10079BB77 /* UserController.swift */; };
+		A10992971CFD9B1F0079BB77 /* LoggedInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10992951CFD9B1F0079BB77 /* LoggedInViewController.swift */; };
+		A10992981CFD9B1F0079BB77 /* LoggedInViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A10992961CFD9B1F0079BB77 /* LoggedInViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A10992701CFD89360079BB77 /* Day2Morning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Day2Morning.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A10992731CFD89360079BB77 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A10992751CFD89360079BB77 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A109927A1CFD89360079BB77 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A109927D1CFD89360079BB77 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A109927F1CFD89360079BB77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A10992871CFD89ED0079BB77 /* LandingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LandingViewController.swift; sourceTree = "<group>"; };
+		A10992881CFD89ED0079BB77 /* LandingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LandingViewController.xib; sourceTree = "<group>"; };
+		A109928B1CFD8D9D0079BB77 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		A109928C1CFD8D9D0079BB77 /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		A109928F1CFD8DAD0079BB77 /* RegistrationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegistrationViewController.swift; sourceTree = "<group>"; };
+		A10992901CFD8DAD0079BB77 /* RegistrationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RegistrationViewController.xib; sourceTree = "<group>"; };
+		A10992931CFD92A10079BB77 /* UserController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserController.swift; sourceTree = "<group>"; };
+		A10992951CFD9B1F0079BB77 /* LoggedInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoggedInViewController.swift; sourceTree = "<group>"; };
+		A10992961CFD9B1F0079BB77 /* LoggedInViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoggedInViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A109926D1CFD89360079BB77 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A10992671CFD89360079BB77 = {
+			isa = PBXGroup;
+			children = (
+				A10992721CFD89360079BB77 /* Day2Morning */,
+				A10992711CFD89360079BB77 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A10992711CFD89360079BB77 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A10992701CFD89360079BB77 /* Day2Morning.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A10992721CFD89360079BB77 /* Day2Morning */ = {
+			isa = PBXGroup;
+			children = (
+				A10992861CFD89C80079BB77 /* LoggedIn */,
+				A10992851CFD89B70079BB77 /* Authentication */,
+				A10992731CFD89360079BB77 /* AppDelegate.swift */,
+				A10992751CFD89360079BB77 /* ViewController.swift */,
+				A109927A1CFD89360079BB77 /* Assets.xcassets */,
+				A109927C1CFD89360079BB77 /* LaunchScreen.storyboard */,
+				A109927F1CFD89360079BB77 /* Info.plist */,
+				A10992931CFD92A10079BB77 /* UserController.swift */,
+			);
+			path = Day2Morning;
+			sourceTree = "<group>";
+		};
+		A10992851CFD89B70079BB77 /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				A10992871CFD89ED0079BB77 /* LandingViewController.swift */,
+				A10992881CFD89ED0079BB77 /* LandingViewController.xib */,
+				A109928B1CFD8D9D0079BB77 /* LoginViewController.swift */,
+				A109928C1CFD8D9D0079BB77 /* LoginViewController.xib */,
+				A109928F1CFD8DAD0079BB77 /* RegistrationViewController.swift */,
+				A10992901CFD8DAD0079BB77 /* RegistrationViewController.xib */,
+			);
+			name = Authentication;
+			sourceTree = "<group>";
+		};
+		A10992861CFD89C80079BB77 /* LoggedIn */ = {
+			isa = PBXGroup;
+			children = (
+				A10992951CFD9B1F0079BB77 /* LoggedInViewController.swift */,
+				A10992961CFD9B1F0079BB77 /* LoggedInViewController.xib */,
+			);
+			name = LoggedIn;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A109926F1CFD89360079BB77 /* Day2Morning */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A10992821CFD89360079BB77 /* Build configuration list for PBXNativeTarget "Day2Morning" */;
+			buildPhases = (
+				A109926C1CFD89360079BB77 /* Sources */,
+				A109926D1CFD89360079BB77 /* Frameworks */,
+				A109926E1CFD89360079BB77 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Day2Morning;
+			productName = Day2Morning;
+			productReference = A10992701CFD89360079BB77 /* Day2Morning.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A10992681CFD89360079BB77 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Kasra Koushan";
+				TargetAttributes = {
+					A109926F1CFD89360079BB77 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = A109926B1CFD89360079BB77 /* Build configuration list for PBXProject "Day2Morning" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A10992671CFD89360079BB77;
+			productRefGroup = A10992711CFD89360079BB77 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A109926F1CFD89360079BB77 /* Day2Morning */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A109926E1CFD89360079BB77 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A10992921CFD8DAD0079BB77 /* RegistrationViewController.xib in Resources */,
+				A109928E1CFD8D9D0079BB77 /* LoginViewController.xib in Resources */,
+				A109928A1CFD89ED0079BB77 /* LandingViewController.xib in Resources */,
+				A10992981CFD9B1F0079BB77 /* LoggedInViewController.xib in Resources */,
+				A109927E1CFD89360079BB77 /* LaunchScreen.storyboard in Resources */,
+				A109927B1CFD89360079BB77 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A109926C1CFD89360079BB77 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A10992941CFD92A10079BB77 /* UserController.swift in Sources */,
+				A109928D1CFD8D9D0079BB77 /* LoginViewController.swift in Sources */,
+				A10992761CFD89360079BB77 /* ViewController.swift in Sources */,
+				A10992891CFD89ED0079BB77 /* LandingViewController.swift in Sources */,
+				A10992741CFD89360079BB77 /* AppDelegate.swift in Sources */,
+				A10992971CFD9B1F0079BB77 /* LoggedInViewController.swift in Sources */,
+				A10992911CFD8DAD0079BB77 /* RegistrationViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A109927C1CFD89360079BB77 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A109927D1CFD89360079BB77 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A10992801CFD89360079BB77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A10992811CFD89360079BB77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A10992831CFD89360079BB77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Day2Morning/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.Day2Morning;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A10992841CFD89360079BB77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Day2Morning/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.Day2Morning;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A109926B1CFD89360079BB77 /* Build configuration list for PBXProject "Day2Morning" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A10992801CFD89360079BB77 /* Debug */,
+				A10992811CFD89360079BB77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A10992821CFD89360079BB77 /* Build configuration list for PBXNativeTarget "Day2Morning" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A10992831CFD89360079BB77 /* Debug */,
+				A10992841CFD89360079BB77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A10992681CFD89360079BB77 /* Project object */;
+}
